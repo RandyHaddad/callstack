@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Acme customer mark</title>
+  <desc id="desc">A clean enterprise customer badge.</desc>
+  <rect width="64" height="64" fill="#181818"/>
+  <path fill="#fff" d="M12 49 31.5 14h5L52 49H40.5l-2.3-6H24.6l-3.1 6H12zm17.2-16h5.4l-2.3-6-3.1 6z"/>
+  <path fill="#da291c" d="M12 54h40v4H12z"/>
+</svg>

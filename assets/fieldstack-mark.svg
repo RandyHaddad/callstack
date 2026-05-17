@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">FieldStack mark</title>
+  <desc id="desc">A modular F-shaped control plane mark.</desc>
+  <rect width="64" height="64" fill="#da291c"/>
+  <path fill="#fff" d="M14 13h36v10H25v10h20v10H25v8H14V13z"/>
+  <path fill="#181818" d="M45 43h5v8h-5z"/>
+</svg>

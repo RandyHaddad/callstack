@@ -1,0 +1,536 @@
+[fieldstack] listening on http://127.0.0.1:8787
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec 358ecd8e-5b9a-4216-9eca-dfc41a782b9c Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-bug-report-2026-05-16-3dd970 contacts/acme-sarah-chen interactions/acme-2026-05-16-19999999999-18d0d0 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-bug-report-2026-05-16-3dd970
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-16-19999999999-18d0d0
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-bug-report-2026-05-16-3dd970",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-16-19999999999-18d0d0",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +19999999999
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+19999999999",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-reports-mp90bozu. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "358ecd8e-5b9a-4216-9eca-dfc41a782b9c",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec 1e799717-9bf8-4ef6-9801-b5044907bc34 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_sms
+[fieldstack] persist start work-orders/acme-question-2026-05-17-7fa069 contacts/acme-sarah-chen interactions/acme-2026-05-17-15551234567-1293ff customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-question-2026-05-17-7fa069
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-15551234567-1293ff
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-question-2026-05-17-7fa069",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-15551234567-1293ff",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +15551234567
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+15551234567",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-other-mp90gl0e. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "1e799717-9bf8-4ef6-9801-b5044907bc34",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec b02e9430-c5e2-4a3d-b628-9e2beaef12b3 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-feedback-2026-05-17-600ab2 contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-8ff422 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-feedback-2026-05-17-600ab2
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-8ff422
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-feedback-2026-05-17-600ab2",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-8ff422",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] normalized spec 948ad860-4c95-42e4-8382-1abd63f3fb4f Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-question-2026-05-17-af3f16 contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-d72e08 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-other-mp90hqnz. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "b02e9430-c5e2-4a3d-b628-9e2beaef12b3",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] persisted work order work-orders/acme-question-2026-05-17-af3f16
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-d72e08
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-question-2026-05-17-af3f16",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-d72e08",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-other-mp90ht7q. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "948ad860-4c95-42e4-8382-1abd63f3fb4f",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec 034d0f9a-2746-4778-bc02-a51d8c2ea13e Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-bug-report-2026-05-17-5ac04a contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-b2a539 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] normalized spec bb8f0608-2976-42c8-a85f-c988e695f85a Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-question-2026-05-17-27f65b contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-d2fa73 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-bug-report-2026-05-17-5ac04a
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-b2a539
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-bug-report-2026-05-17-5ac04a",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-b2a539",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] persisted customer customers/acme
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-account-mp90i8qa. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "034d0f9a-2746-4778-bc02-a51d8c2ea13e",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] persisted work order work-orders/acme-question-2026-05-17-27f65b
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-d2fa73
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-question-2026-05-17-27f65b",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-d2fa73",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-account-mp90ib0x. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "bb8f0608-2976-42c8-a85f-c988e695f85a",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec c03139a1-9a9a-4358-9ca9-09e961d85b36 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-question-2026-05-17-960fff contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-9a64c1 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-question-2026-05-17-960fff
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-9a64c1
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-question-2026-05-17-960fff",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-9a64c1",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-other-mp90ih2o. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "c03139a1-9a9a-4358-9ca9-09e961d85b36",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] normalized spec 194836ea-74e0-4121-8b01-885baa8a9b85 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-question-2026-05-17-3792c2 contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-85f9bb customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-question-2026-05-17-3792c2
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-85f9bb
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-question-2026-05-17-3792c2",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-85f9bb",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-other-mp90il1q. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "194836ea-74e0-4121-8b01-885baa8a9b85",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec 5fea4fe4-d475-43cd-a90d-13672bb237bb Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-question-2026-05-17-67f48b contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-341076 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-question-2026-05-17-67f48b
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-341076
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-question-2026-05-17-67f48b",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-341076",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-other-mp90iskj. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "5fea4fe4-d475-43cd-a90d-13672bb237bb",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec ae6bfae2-9696-4b5f-8b49-b3c6ce71a0f7 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-question-2026-05-17-54f31b contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-994177 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-question-2026-05-17-54f31b
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-994177
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-question-2026-05-17-54f31b",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-994177",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-other-mp90j89q. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "ae6bfae2-9696-4b5f-8b49-b3c6ce71a0f7",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec 041af24e-5c69-4bf8-bef8-3dff9d3ae602 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-bug-report-2026-05-17-14138d contacts/acme-sarah-chen interactions/acme-2026-05-17-12676016614-8051f6 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-bug-report-2026-05-17-14138d
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-12676016614-8051f6
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-bug-report-2026-05-17-14138d",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-12676016614-8051f6",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +12676016614
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+12676016614",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GStack fixed the CSV export on the reports dashboard entitlement path and prepared an approval-gated ship handoff. GStack run: acme-reports-mp90jelo. QA: Static QA passed: Enterprise is included in the export entitlement gate. Reply APPROVE to deploy.",
+  event_id: "041af24e-5c69-4bf8-bef8-3dff9d3ae602",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] listening on http://127.0.0.1:8787
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec 840d2ec1-3234-477c-8336-c8eb99a1fc91 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-bug-report-2026-05-17-8e4b99 contacts/acme-sarah-chen interactions/acme-2026-05-17-19999999999-cbf167 customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-bug-report-2026-05-17-8e4b99
+[fieldstack] persisted contact contacts/acme-sarah-chen
+[fieldstack] persisted interaction interactions/acme-2026-05-17-19999999999-cbf167
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-bug-report-2026-05-17-8e4b99",
+  callerSlug: "contacts/acme-sarah-chen",
+  meetingSlug: "interactions/acme-2026-05-17-19999999999-cbf167",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +19999999999
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+19999999999",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GBrain captured the escalation, and GStack completed the signup work order for: The mobile signup page hides the continue button after typing an email.. GStack run: acme-signup-mp90ochz. QA: QA plan ready from acceptance criteria: Continue button remains visible after entering an email; Signup process can be completed on mobile Reply APPROVE to deploy.",
+  event_id: "840d2ec1-3234-477c-8336-c8eb99a1fc91",
+  customer: "Acme",
+  email: "acme-fieldstack@agentmail.to",
+}
+[fieldstack] listening on http://127.0.0.1:8787
+2736 |     } catch (err) {
+2737 |       return Response.json({ ok: false, error: err.message }, { status: 500 });
+2738 |     }
+2739 |   }
+2740 |   return new Response("Not found", { status: 404 });
+2741 | Bun.serve({
+                ^
+error: Failed to start server. Is port 8787 in use?
+ syscall: "listen",
+   errno: 0,
+    code: "EADDRINUSE"
+
+      at /$bunfs/root/server:2741:10
+
+Bun v1.3.14 (macOS arm64)
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec cbbf8849-3b8a-47a8-9e46-66c0065bd484 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-bug-report-2026-05-17-ee58d9 contacts/acme-haris-jalal interactions/acme-2026-05-17-19999999999-db988c customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-bug-report-2026-05-17-ee58d9
+[fieldstack] persisted contact contacts/acme-haris-jalal
+[fieldstack] persisted interaction interactions/acme-2026-05-17-19999999999-db988c
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-bug-report-2026-05-17-ee58d9",
+  callerSlug: "contacts/acme-haris-jalal",
+  meetingSlug: "interactions/acme-2026-05-17-19999999999-db988c",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +19999999999
+[fieldstack] notify (stub): {
+  to: "+19999999999",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GBrain captured the escalation, and GStack completed the signup work order for: The continue button is hidden after typing an email on the mobile signup page.. GStack run: acme-signup-mp90v51l. QA: QA plan ready from acceptance criteria: Continue button is visible after entering an email Reply APPROVE to deploy.",
+  event_id: "cbbf8849-3b8a-47a8-9e46-66c0065bd484",
+  customer: "Acme",
+  email: "harisjalal502@gmail.com",
+}
+[fieldstack] listening on http://127.0.0.1:8787
+[fieldstack] listening on http://127.0.0.1:8787
+[fieldstack] listening on http://127.0.0.1:8787
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+2736 |     } catch (err) {
+2737 |       return Response.json({ ok: false, error: err.message }, { status: 500 });
+2738 |     }
+2739 |   }
+2740 |   return new Response("Not found", { status: 404 });
+2741 | Bun.serve({
+                ^
+error: Failed to start server. Is port 8787 in use?
+ syscall: "listen",
+   errno: 0,
+    code: "EADDRINUSE"
+
+      at /$bunfs/root/server:2741:10
+
+Bun v1.3.14 (macOS arm64)
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] listening on http://127.0.0.1:8787
+[fieldstack] conversation model failed: gpt-realtime 400 {
+  "error": {
+    "message": "The requested model, 'gpt-realtime' was not found.",
+    "type": "invalid_request_error",
+    "param": "model",
+    "code": "model_not_found"
+  }
+}
+[fieldstack] processIncomingEvent start undefined
+[fieldstack] normalized spec 7a011896-b03e-43ea-848b-d86ed1a3ced6 Acme /Users/randyhaddad/Desktop/GBrain Hackathon/callstack/demo-app agentphone_call
+[fieldstack] persist start work-orders/acme-bug-report-2026-05-17-32b9c4 contacts/acme-haris-jalal interactions/acme-2026-05-17-19999999999-fb97eb customers/acme projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted customer customers/acme
+[fieldstack] persisted work order work-orders/acme-bug-report-2026-05-17-32b9c4
+[fieldstack] persisted contact contacts/acme-haris-jalal
+[fieldstack] persisted interaction interactions/acme-2026-05-17-19999999999-fb97eb
+[fieldstack] persisted project projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app
+[fieldstack] persisted pages {
+  issueSlug: "work-orders/acme-bug-report-2026-05-17-32b9c4",
+  callerSlug: "contacts/acme-haris-jalal",
+  meetingSlug: "interactions/acme-2026-05-17-19999999999-fb97eb",
+  customerSlug: "customers/acme",
+  projectSlug: "projects/users-randyhaddad-desktop-gbrain-hackathon-callstack-demo-app",
+}
+[fieldstack] repair result success
+[fieldstack] sending follow_up +19999999999
+[fieldstack] AgentPhone follow-up blocked: {"detail":"Outbound SMS is not enabled for this account. Complete 10DLC registration first."}
+[fieldstack] notify (sms blocked, retained): {
+  to: "+19999999999",
+  from: "FieldStack",
+  text: "FieldStack: found it for Acme. GBrain captured the escalation, and GStack completed the billing work order for: Billing page shows a blank screen after opening invoices.. GStack run: acme-billing-mp911qge. QA: QA plan ready from acceptance criteria: Invoices display correctly; No blank screen appears Reply APPROVE to deploy.",
+  event_id: "7a011896-b03e-43ea-848b-d86ed1a3ced6",
+  customer: "Acme",
+  email: "harisjalal502@gmail.com",
+}

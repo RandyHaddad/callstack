@@ -1,0 +1,15 @@
+{
+  "name": "fieldstack",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "FieldStack MVP — deploy a GStack/GBrain-powered AI FDE to every customer",
+  "scripts": {
+    "dev": "bun run src/server.ts",
+    "start": "bun run src/server.ts",
+    "simulate": "bun run scripts/simulate.ts",
+    "conversation:smoke": "bun run scripts/conversation-smoke.ts",
+    "demo:reset-bug": "bash scripts/reset-demo-bug.sh",
+    "build": "bun build --compile --target=bun --outfile=dist/server src/server.ts"
+  }
+}

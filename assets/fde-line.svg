@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">FDE phone line</title>
+  <desc id="desc">A phone endpoint connected to an engineering workflow.</desc>
+  <rect width="64" height="64" fill="#181818"/>
+  <path fill="#fff" d="M20 10h24a5 5 0 0 1 5 5v34a5 5 0 0 1-5 5H20a5 5 0 0 1-5-5V15a5 5 0 0 1 5-5zm2 8v24h20V18H22zm10 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+  <path fill="#da291c" d="M47 20h9v5h-9zm0 10h9v5h-9z"/>
+</svg>
